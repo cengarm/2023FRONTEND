@@ -1,4 +1,4 @@
-<h1> Başlık </h1>
+<!-- <h1> Başlık </h1>
 <p> paragraf etiketi </p>
 <br> satıratlama etiketi <br>
 <a href="https://www.kodluyoruz.org">Kodluyoruz</a>
@@ -44,3 +44,4 @@ Web sayfamızda görmek istediğimiz bütün içerikleri <body> etiketi altına 
   </BODY>
 </html>
 
+ -->
