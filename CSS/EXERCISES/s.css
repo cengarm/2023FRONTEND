@@ -1,0 +1,47 @@
+/* .container > p.intro + ul > li:first-child {
+    color: pink;
+    } */
+
+    body{
+        margin: 0px;
+        padding : 0px;
+    }
+   
+    .clearfix{
+        clear: both;
+    }
+    
+.container{
+    width: 1000px;
+}
+
+    .left-bar{
+        widows: 200px;
+    }
+    .content{
+        width: 800px;
+    }
+
+    .box {
+/* 
+<!-- Margin : İki kutu arasında ki mesafe için -->
+<!-- Padding : Kutu içerisinde ki mesafeyi algılamak için -->
+<!-- Witdh : Genişlik - Height : Yükseklik --> 
+     float : Kutuların dizilim şekli 
+*/
+        float: left ;
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-top: 0px
+        /* 
+        margin-top
+        margin-bottom
+        margin-left
+        margin right 
+         */
+    }
+    .bg-red{background-color: red;}
+
+    .bg-green{background-color: green;}

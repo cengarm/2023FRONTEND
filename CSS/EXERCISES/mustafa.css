@@ -2,6 +2,17 @@
    id-> #id-bilgisi{}
  */
 
+ul>li:first-child {
+    color:green
+}
+ul>li:last-child {
+    color:aqua
+}
+ .color-blue.fw-inherit {
+    color: blue;
+    font-weight:inherit ;
+}
+
 .text-red{color:red;}
 
 .fs-16{
