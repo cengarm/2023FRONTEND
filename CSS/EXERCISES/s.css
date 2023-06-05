@@ -2,6 +2,17 @@
     color: pink;
     } */
 
+    .gradient {
+        background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+    }
+    .btn {
+        padding : 10px 20px;
+        border-radius: 25px;
+        color: white;
+        text-decoration: none;
+        box-shadow: 5px 2px 15px 7px black;
+    }
+
     body{
         margin: 0px;
         padding : 0px;

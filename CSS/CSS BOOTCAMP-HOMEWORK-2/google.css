@@ -1,0 +1,24 @@
+.text-arr{
+    align-items: center;
+    background-color: rgb(232, 232, 232);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.body-arr{
+    background-color: white;
+}
+
+.table-arr{
+    width: 93.5%;
+    margin-left: 50px;
+}
+
+
+.tr-arr2{
+    background-color: #81eee3;
+}
+
+.p-arr{
+    text-align: center;
+}
