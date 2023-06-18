@@ -1,32 +1,32 @@
 # const , let , var
 
-Const = Değişken için tanımlama , Değiştirilemez bir değişkendir! 
+### Const = Değişken için tanımlama , Değiştirilemez bir değişkendir! 
 
         const name = "mustafa";
 
         name = "deneme" ("Hata alırsın")
 
-Let,var = Değiştirilebilir değişken!
+### Let,var = Değiştirilebilir değişken!
 
-const text = document.getElementById('text') // id numarasına göre text çağırıyor.
- console.log(text)
- const {default :axios} = require("axios");
- const name = "mustafa";
- const age = 20;
- const result = true;
+         const text = document.getElementById('text') // id numarasına göre text çağırıyor.
+         console.log(text)
+         const {default :axios} = require("axios");
+         const name = "mustafa";
+         const age = 20;
+         const result = true;
+        
+         console.log(name + String(age))        
+### name = "deneme"
+### typeof kendisinden sonra gelen değişkenin tipini belirtir.
+###  Büyük harf ile belirtirsen Number,String() => parantez içerisine gelen değeri ona dönüştürür.
+### name.substr(0,2) 0.dan sonra 2 tane karakteri al gerisini kes.
+### 26 ? "eşitse" : "değilse"
 
-//  name = "deneme"
-// typeof kendisinden sonra gelen değişkenin tipini belirtir.
-// Büyük harf ile belirtirsen Number,String() => parantez içerisine gelen değeri ona dönüştürür.
-// name.substr(0,2) 0.dan sonra 2 tane karakteri al gerisini kes.
-// 26 ? "eşitse" : "değilse"
+### == eşit mi diye kontrol ediyor 
+### === ek olarak tip kontrolü yapıyor
 
-// == eşit mi diye kontrol ediyor 
-// === ek olarak tip kontrolü yapıyor
 
-// console.log(name + String(age))
-
-//Fonksiyonu tanımladığınız zaman fonksiyonu çağırsın!
+### Fonksiyonu tanımladığınız zaman fonksiyonu çağırsın!
 
         const nameFunc = () => {} 
         const nameFunc = () => {   // burda fonk oluşturduk.
@@ -34,23 +34,21 @@ const text = document.getElementById('text') // id numarasına göre text çağ�
             if(age === 26){
         
          console.log("yaş 26")
-    }
-    
-}
+    }}
 
 
         nameFunc() //fonksiyonu çağırdım!
 
-// obje içinde : kullanılır
+### obje içinde : kullanılır
 
         const obj = {
             name: "Mustafa",
             age: 26,
         }
-        // console.log(obj)
+         console.log(obj)
 
         for(var i=0; i<10;i++){
-        // console.log(i)
+         console.log(i)
         }
 
         let count =10
@@ -59,8 +57,8 @@ const text = document.getElementById('text') // id numarasına göre text çağ�
             console.log(count)
         }
 
-//(await = veriler gelene kadar bekliyor)
-//get all adında veri çeken bir fonksiyon oluşturduk.
+### (await = veriler gelene kadar bekliyor)
+### get all adında veri çeken bir fonksiyon oluşturduk.
 
         const getAll = async () => {
         let arr = [] // verileri saklamak için boş array oluşturduk list 
@@ -69,10 +67,12 @@ const text = document.getElementById('text') // id numarasına göre text çağ�
           arr.push(data) // arrayin içine dataları pushladık 
           return arr
         }
+### çalışması için dışarıda kullandık
+          getAll()
 
-//çalışması için dışarıda kullandık
 
-        getAll()
 
+
+      
 
 
